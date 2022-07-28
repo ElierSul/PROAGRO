@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<script src="../assets/include-html.js"></script>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <link rel="shortcut icon" href="imagenes/Recurso.png">
+    <title>CREAR ADMINISTRATIVO</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+
+</head>
+
+<body>
+    <div data-include="../assets/headerAdministrativos.html"></div>
+
+    <main>
+        <img src="imagenes/top2.jpg" alt="principal" width=100%>
+        <hr class="my-4">
+        <section class="py-5 text-center container">
+            <div class="row g-5">
+                <div class="col-md-5 col-lg-4 order-md-last">
+                    <form>
+                        <div id="file">
+                            <img src="imagenes/calvo.jpg" class="imgsart img-fluid"><br>
+                        </div>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <form class="d-flex">
+                                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="on" style="margin-top: 1em;">Subir Archivo</button>
+                            </form>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-7 col-lg-8">
+                    <hr class="my-4">
+                    <h4 class="mb-3">Nuevo Administrativo</h4>
+                    <hr class="my-4">
+                    <form class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label for="firstName" class="form-label">Nombres</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="NN" value="" required>
+                                <div class="invalid-feedback">
+                                    Es requerido los Nombres.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="lastName" class="form-label">Apellidos</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="NN" value="" required>
+                                <div class="invalid-feedback">
+                                    Es requerido los Apellidos.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="username" class="form-label">Nombre de usuario</label>
+
+                                <input type="text" class="form-control" id="username" placeholder="Username" required>
+                                <div class="invalid-feedback">
+                                    Requerido un nombre de usuario
+
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="borgfit@ejemplo.com" required>
+                                <div class="invalid-feedback">
+                                    Hace falta un Correo
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="phone" class="form-label">Teléfono</label>
+                                <input type="number" class="form-control" id="email" placeholder="0000000000" required>
+                                <div class="invalid-feedback">
+                                    Se requiere de un teléfono
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="address" class="form-label">Dirección</label>
+                                <input type="text" class="form-control" id="address" placeholder="Calle 1 No 1-1" required>
+                                <div class="invalid-feedback">
+                                    Se requiere de una dirección.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="floatingPassword" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+
+                            </div>
+                            <hr class="my-4">
+                            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="on" style="margin-top: 1em;">Terminar registro</button>
+
+
+                        </div>
+
+                    </form>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </section>
+
+
+        <hr class="my-4">
+
+        <!-- FOOTER -->
+        <div data-include="../assets/footer.html"></div>
+        <div data-include="../assets/copy.html"></div>
+    </main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
