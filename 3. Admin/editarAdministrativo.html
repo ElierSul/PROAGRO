@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.82.0">
-    <link rel="shortcut icon" href="imagenes/Recurso.png">
+    <link rel="shortcut icon" href="../imagenes/icon.png">
     <title>EDITAR ADMINISTRATIVO</title>
 
 
@@ -23,18 +23,19 @@
     <div data-include="../assets/headerAdministrativos.html"></div>
 
     <main>
-        <img src="imagenes/top2.jpg" alt="principal" width=100%>
+        <img src="../imagenes/top.jpg" alt="principal" width=100%>
         <hr class="my-4">
         <section class="py-5 text-center container">
             <div class="row g-5">
                 <div class="col-md-5 col-lg-4 order-md-last">
                     <form>
                         <div id="file">
-                            <img src="imagenes/calvo.jpg" class="imgsart img-fluid"><br>
+                            <img src="../imagenes/calvo.jpg" class="imgsart img-fluid"><br>
                         </div>
                         <div class="d-grid gap-2 col-6 mx-auto">
                             <form class="d-flex">
-                                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="on" style="margin-top: 1em;">Subir Archivo</button>
+                                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false"
+                                    autocomplete="on" style="margin-top: 1em;">Subir Archivo</button>
                             </form>
                         </div>
                     </form>
@@ -48,7 +49,8 @@
                         <div class="row g-3">
                             <div class="col-12">
                                 <label for="firstName" class="form-label">Nombres</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="NN" value="" required>
+                                <input type="text" class="form-control" id="firstName" placeholder="NN" value=""
+                                    required>
                                 <div class="invalid-feedback">
                                     Es requerido los Nombres.
                                 </div>
@@ -56,7 +58,8 @@
 
                             <div class="col-12">
                                 <label for="lastName" class="form-label">Apellidos</label>
-                                <input type="text" class="form-control" id="lastName" placeholder="NN" value="" required>
+                                <input type="text" class="form-control" id="lastName" placeholder="NN" value=""
+                                    required>
                                 <div class="invalid-feedback">
                                     Es requerido los Apellidos.
                                 </div>
@@ -74,7 +77,8 @@
 
                             <div class="col-12">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="borgfit@ejemplo.com" required>
+                                <input type="email" class="form-control" id="email" placeholder="borgfit@ejemplo.com"
+                                    required>
                                 <div class="invalid-feedback">
                                     Hace falta un Correo
                                 </div>
@@ -90,7 +94,8 @@
 
                             <div class="col-12">
                                 <label for="address" class="form-label">Dirección</label>
-                                <input type="text" class="form-control" id="address" placeholder="Calle 1 No 1-1" required>
+                                <input type="text" class="form-control" id="address" placeholder="Calle 1 No 1-1"
+                                    required>
                                 <div class="invalid-feedback">
                                     Se requiere de una dirección.
                                 </div>
@@ -98,7 +103,8 @@
 
                             <div class="col-12">
                                 <label for="floatingPassword" class="form-label">Contraseña</label>
-                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                    placeholder="Password">
                             </div>
 
                             <hr class="my-4">
@@ -109,32 +115,40 @@
                                 <div class="btn-group me-2" role="group" aria-label="Second group">
 
                                     <!-- modal -->
-                                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Cambiar Contraseña</button>
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Cambiar
+                                        Contraseña</button>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <label style="color: #2C305E;">Actualizacion de Contraseña</label>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
                                                     <form>
                                                         <div class="mb-3">
-                                                            <label for="recipient-name" class="col-form-label" style="color: #2C305E;">Contraseña Anterior</label>
+                                                            <label for="recipient-name" class="col-form-label"
+                                                                style="color: #2C305E;">Contraseña Anterior</label>
                                                             <input type="text" class="form-control" id="recipient-name">
                                                         </div>
                                                         <div class="mb-3">
-                                                            <label for="recipient-name" class="col-form-label" style="color: #2C305E;">Contraseña Nueva</label>
+                                                            <label for="recipient-name" class="col-form-label"
+                                                                style="color: #2C305E;">Contraseña Nueva</label>
                                                             <input type="text" class="form-control" id="recipient-name">
                                                         </div>
                                                         <div class="mb-3">
-                                                            <label for="recipient-name" class="col-form-label" style="color: #2C305E;">Confirmar Contraseña</label>
+                                                            <label for="recipient-name" class="col-form-label"
+                                                                style="color: #2C305E;">Confirmar Contraseña</label>
                                                             <input type="text" class="form-control" id="recipient-name">
                                                         </div>
                                                     </form>
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Cancelar</button>
                                                     <button type="button" class="btn btn-primary">Actualizar</button>
                                                 </div>
                                             </div>
