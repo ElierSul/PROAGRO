@@ -1,0 +1,104 @@
+body {
+    background-color: #121212;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid>* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-row {
+    height: 70px;
+    background-color: #13471f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-row img {
+    width: 200px;
+}
+
+.main-row {
+    height: calc(100vh - 70px);
+    padding: 0 100px;
+}
+
+.main-row .col-md-6 {
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-row .col-md-6:nth-child(1) {
+    border-right: 1px solid #4a4a4a;
+    padding: 10px;
+    color: white;
+}
+
+.main-row .col-md-6:nth-child(2) {
+    border-left: 1px solid #4a4a4a;
+    padding: 10px;
+    color: white;
+}
+
+.main-row .col-md-6 .form-upload {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-custom {
+    background-color: #4a4a4a;
+    border-radius: 50px 50px 50px 50px;
+    border-style: solid;
+    border-color: transparent;
+    transition: all 0.2s ease-out;
+    width: 100%;
+    margin-top: 12px;
+    color: #B0B0B0;
+    height: 40px;
+    padding: 12px;
+}
+
+.input-custom:focus {
+    transition: all 0.2s ease-out;
+    border: double 2px transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(#272727, #272727), radial-gradient( circle farthest-corner at 10.2% 55.8%, #00870E 0%, #00D415 90.1%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+:focus {
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.textarea-custom {
+    background-color: #4a4a4a;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    transition: all 0.2s ease-out;
+    width: 100%;
+    margin-top: 12px;
+    color: #B0B0B0;
+    padding: 12px;
+}
+
+.textarea-custom:focus {
+    transition: all 0.2s ease-out;
+    border: double 2px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#272727, #272727), radial-gradient( circle farthest-corner at 10.2% 55.8%, #00870E 0%, #00D415 90.1%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
